@@ -4,7 +4,7 @@ This extension (*gem*) for [O3DE (Open 3D Engine)](https://www.o3de.org) provide
 - Move the sun position according to the scene time.
 - Work synchronously with the main time component of the scene (provided by [Date & Time gem](https://github.com/loherangrin/addons.o3de.date-time)), or independently from it.
 
-*VIDEO*
+https://user-images.githubusercontent.com/51530087/152421714-f27f9632-1a6e-4578-91e7-16b7f1941ec2.mp4
 
 ## Examples
 A sample project showing the basic usage of this gem is located under `/examples/` directory. Three different variants are available:
