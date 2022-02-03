@@ -1,0 +1,30 @@
+{
+    "entries": [
+        {
+            "base": "DayPeriod_Day",
+            "context": "Constant",
+            "variant": "",
+            "details": {
+                "name": "Day",
+                "category": "Day-Night Cycle/Constants/Day Period"
+            },
+            "methods": [
+                {
+                    "base": "GetDayPeriod_Day",
+                    "context": "Getter",
+                    "details": {
+                        "name": "Day"
+                    },
+                    "results": [
+                        {
+                            "typeid": "{72B9409A-7D1A-4831-9CFE-FCB3FADD3426}",
+                            "details": {
+                                "name": "Day Period"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

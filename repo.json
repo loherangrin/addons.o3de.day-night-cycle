@@ -1,0 +1,16 @@
+{
+    "repo_name":"Loherangrin_DayNightCycle",
+    "origin":"Loherangrin",
+    "repo_uri": "https://github.com/loherangrin/addons.o3de.day-night-cycle",
+    "summary": "Repository for 'Day/Night Cycle' Gem",
+    "additional_info": "",
+    "last_updated": "",
+    "gems": [
+        "gem"
+    ],
+    "projects": [
+        "examples/cpp",
+        "examples/lua",
+        "examples/script-canvas"
+    ]
+}

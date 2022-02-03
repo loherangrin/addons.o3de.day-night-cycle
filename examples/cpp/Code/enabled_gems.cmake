@@ -1,0 +1,9 @@
+set(ENABLED_GEMS
+    Loherangrin_DayNightCycle_CppExample
+    Atom
+    CameraFramework
+    ImGui
+    LyShine
+    Loherangrin_DateTime
+    Loherangrin_DayNightCycle
+)

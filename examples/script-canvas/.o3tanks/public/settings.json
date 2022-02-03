@@ -1,0 +1,15 @@
+{
+    "engine": {
+        "branch": "main",
+        "repository": "https://github.com/o3de/o3de.git"
+    },
+    "gems": [
+        {
+            "relative_path": "../../gem"
+        },
+        {
+            "branch": "main",
+            "repository": "https://github.com/loherangrin/addons.o3de.date-time.git"
+        }
+    ]
+}

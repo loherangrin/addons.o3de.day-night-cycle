@@ -1,0 +1,245 @@
+{
+    "entries": [
+        {
+            "base": "DayNightCycleRequestBus",
+            "context": "EBusSender",
+            "variant": "",
+            "details": {
+                "name": "Day-Night Cycle Requests",
+                "category": "Day-Night Cycle"
+            },
+            "methods": [
+                {
+                    "base": "IsSynchronized",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Is Synchronized"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Is Synchronized is invoked"
+                    },
+                    "details": {
+                        "name": "Is Synchronized"
+                    },
+                    "results": [
+                        {
+                            "typeid": "{A0CA880C-AFE4-43CB-926C-59AC48496112}",
+                            "details": {
+                                "name": "Synchronized",
+                                "tooltip": "True if time values are synchronized with the main TimeComponent"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "SetTimeSpeed",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Set Time Speed"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Set Time Speed is invoked"
+                    },
+                    "details": {
+                        "name": "Set Time Speed"
+                    },
+                    "params": [
+                        {
+                            "typeid": "{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}",
+                            "details": {
+                                "name": "Speed",
+                                "tooltip": "New value to set as time speed (if not synchronized)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "SetSunriseTime",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Set Sunrise Time"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Set Sunrise Time is invoked"
+                    },
+                    "details": {
+                        "name": "Set Sunrise Time"
+                    },
+                    "params": [
+                        {
+                            "typeid": "{7E0E6142-2ED0-48A1-BF5F-2D42DD6120AA}",
+                            "details": {
+                                "name": "Time",
+                                "tooltip": "New value to set as begin of the day"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "GetSunsetTime",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Get Sunset Time"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Get Sunset Time is invoked"
+                    },
+                    "details": {
+                        "name": "Get Sunset Time"
+                    },
+                    "results": [
+                        {
+                            "typeid": "{7E0E6142-2ED0-48A1-BF5F-2D42DD6120AA}",
+                            "details": {
+                                "name": "Time",
+                                "tooltip": "Time when the day begins"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "SetTimeScale",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Set Time Scale"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Set Time Scale is invoked"
+                    },
+                    "details": {
+                        "name": "Set Time Scale"
+                    },
+                    "params": [
+                        {
+                            "typeid": "{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}",
+                            "details": {
+                                "name": "Scale",
+                                "tooltip": "New value to set as time scale (if not synchronized)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "GetSunriseTime",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Get Sunrise Time"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Get Sunrise Time is invoked"
+                    },
+                    "details": {
+                        "name": "Get Sunrise Time"
+                    },
+                    "results": [
+                        {
+                            "typeid": "{7E0E6142-2ED0-48A1-BF5F-2D42DD6120AA}",
+                            "details": {
+                                "name": "Time",
+                                "tooltip": "Time when the day ends"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "SetSunsetTime",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Set Sunset Time"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Set Sunset Time is invoked"
+                    },
+                    "details": {
+                        "name": "Set Sunset Time"
+                    },
+                    "params": [
+                        {
+                            "typeid": "{7E0E6142-2ED0-48A1-BF5F-2D42DD6120AA}",
+                            "details": {
+                                "name": "Time",
+                                "tooltip": "New value to set as end of the day"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "SetSynchronization",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Set Synchronization"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Set Synchronization is invoked"
+                    },
+                    "details": {
+                        "name": "Set Synchronization"
+                    },
+                    "params": [
+                        {
+                            "typeid": "{A0CA880C-AFE4-43CB-926C-59AC48496112}",
+                            "details": {
+                                "name": "Synchronized",
+                                "tooltip": "When enabled, time speed and scale are retrieved from the main TimeComponent"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "GetCurrentDayPeriod",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Get Current Day Period"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Get Current Day Period is invoked"
+                    },
+                    "details": {
+                        "name": "Get Current Day Period"
+                    },
+                    "results": [
+                        {
+                            "typeid": "{72B9409A-7D1A-4831-9CFE-FCB3FADD3426}",
+                            "details": {
+                                "name": "Day Period",
+                                "tooltip": "Current day period"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "base": "SetCurrentTime",
+                    "entry": {
+                        "name": "In",
+                        "tooltip": "When signaled, this will invoke Set Current Time"
+                    },
+                    "exit": {
+                        "name": "Out",
+                        "tooltip": "Signaled after Set Current Time is invoked"
+                    },
+                    "details": {
+                        "name": "Set Current Time"
+                    },
+                    "params": [
+                        {
+                            "typeid": "{7E0E6142-2ED0-48A1-BF5F-2D42DD6120AA}",
+                            "details": {
+                                "name": "Time",
+                                "tooltip": "New value to set as current time (if not synchronized)"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

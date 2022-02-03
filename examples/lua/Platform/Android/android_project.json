@@ -1,0 +1,9 @@
+{
+    "Tags": ["Android"],
+    "android_settings" : {
+        "package_name" : "loherangrin.addons.o3de.daynightcycle.examples.lua",
+        "version_number" : 1,
+        "version_name" : "0.1.0",
+        "orientation" : "landscape"
+    }
+}

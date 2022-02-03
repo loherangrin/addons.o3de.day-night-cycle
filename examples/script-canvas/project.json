@@ -1,0 +1,21 @@
+{
+    "project_name": "Loherangrin_DayNightCycle_ScriptCanvasExample",
+    "project_id": "{ED184CAC-A1E4-4899-BE01-C38CDC195B57}",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/loherangrin/addons.o3de.day-night-cycle/blob/main/LICENSE",
+    "origin": "Loherangrin",
+    "origin_url": "https://github.com/loherangrin/addons.o3de.day-night-cycle",
+    "display_name": "DayNightCycle_ScriptCanvasExample",
+    "summary": "A demo scene of 'Day/Night Cycle' gem using ScriptCanvas",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Sample",
+        "Rendering",
+        "Time"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": []
+}

@@ -1,0 +1,27 @@
+{
+    "entries": [
+        {
+            "base": "DayNightCycleNotificationBus",
+            "context": "EBusHandler",
+            "variant": "",
+            "details": {
+                "name": "Day-Night Cycle Notifications",
+                "category": "Day-Night Cycle"
+            },
+            "methods": [
+                {
+                    "base": "OnDayStarted",
+                    "details": {
+                        "name": "On Day Started"
+                    }
+                },
+                {
+                    "base": "OnNightStarted",
+                    "details": {
+                        "name": "On Night Started"
+                    }
+                }
+            ]
+        }
+    ]
+}

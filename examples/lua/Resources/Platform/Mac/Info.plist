@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<false/>
+	<key>CFBundleDisplayName</key>
+	<string>Day/Night Cycle - Lua Example</string>
+	<key>CFBundleExecutable</key>
+	<string>Loherangrin_DayNightCycle_LuaExample.GameLauncher</string>
+	<key>CFBundleIdentifier</key>
+	<string>loherangrin.addons.o3de.daynightcycle.examples.lua</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.puzzle-games</string>
+</dict>
+</plist>

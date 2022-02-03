@@ -1,0 +1,10 @@
+set(ENABLED_GEMS
+    Loherangrin_DayNightCycle_ScriptCanvasExample
+    Atom
+    CameraFramework
+    ImGui
+    LyShine
+    ScriptCanvas
+    Loherangrin_DateTime
+    Loherangrin_DayNightCycle
+)

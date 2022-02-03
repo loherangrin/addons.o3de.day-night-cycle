@@ -1,0 +1,20 @@
+{
+    "project_name": "Loherangrin_DayNightCycle_CppExample",
+    "project_id": "{3AC73CA7-B184-4224-9D72-8A93723A11C1}",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/loherangrin/addons.o3de.day-night-cycle/blob/main/LICENSE",
+    "origin": "https://github.com/loherangrin/addons.o3de.day-night-cycle",
+    "display_name": "DayNightCycle_CppExample",
+    "summary": "A demo scene of 'Day/Night Cycle' gem using C++",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Sample",
+        "Rendering",
+        "Time"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": []
+}

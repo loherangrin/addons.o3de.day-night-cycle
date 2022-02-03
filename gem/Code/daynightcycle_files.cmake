@@ -1,0 +1,10 @@
+set(FILES
+    Include/DayNightCycle/Constants/DayNightCycleConstants.hpp
+    Include/DayNightCycle/EBuses/DayNightCycleBus.hpp
+    Include/DayNightCycle/Types/DayPeriod.hpp
+    Source/Components/DayNightCycleComponent.cpp
+    Source/Components/DayNightCycleComponent.hpp
+    Source/Components/DayNightCycleComponentConfig.cpp
+    Source/Components/DayNightCycleComponentConfig.hpp
+    Source/DayNightCycleModuleInterface.hpp
+)
